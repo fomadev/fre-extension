@@ -1,0 +1,37 @@
+{
+  "name": "foma-render-engine",
+  "displayName": "Foma Render Engine",
+  "description": "Support de langage et icônes pour le moteur de rendu Foma.",
+  "version": "1.0.0",
+  "publisher": "FordiMalanda",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "icon": "icons/foma-icon.png", 
+  "categories": [
+    "Languages",
+    "Themes"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "fre",
+        "aliases": [
+          "Foma Render Engine",
+          "fre"
+        ],
+        "extensions": [
+          ".fre"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "fre",
+        "scopeName": "text.html.handlebars",
+        "path": "./syntaxes/fre.tmLanguage.json"
+      }
+    ]
+  }
+}
