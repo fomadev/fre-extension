@@ -2,14 +2,21 @@
   "name": "foma-render-engine",
   "displayName": "Foma Render Engine",
   "version": "1.0.0",
-  "publisher": "FordiMalanda",
-  "icon": "icons/foma-logo.svg",
+  "publisher": "fomadev",
+  "description": "Official support for the Foma rendering engine (FRE).",
+  "icon": "icons/foma-logo.png", 
   "engines": {
     "vscode": "^1.80.0"
   },
+  "license": "MIT",
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fomadev/fre-extension"
+  },
   "contributes": {
     "languages": [
       {
@@ -38,9 +45,5 @@
         "path": "./foma-icons.json"
       }
     ]
-  },
-  "repository": {
-   "type": "git",
-   "url": "https://github.com/fomadev/fre-extension"
-}
+  }
 }

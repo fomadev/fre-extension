@@ -1,7 +1,7 @@
 {
   "iconDefinitions": {
     "foma_icon": {
-      "iconPath": "./icons/foma-logo.svg"
+      "iconPath": "./icons/foma-logo.png"
     }
   },
   "fileExtensions": {
