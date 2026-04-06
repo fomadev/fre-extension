@@ -6,5 +6,8 @@
   },
   "fileExtensions": {
     "fre": "foma_icon"
+  },
+  "options": {
+    "hidesExplorerArrows": false
   }
 }
