@@ -1,10 +1,10 @@
 {
   "iconDefinitions": {
-    "foma_file": {
-      "iconPath": "./icons/foma-icon.png"
+    "foma_icon": {
+      "iconPath": "./icons/foma-logo.png"
     }
   },
   "fileExtensions": {
-    "fre": "foma_file"
+    "fre": "foma_icon"
   }
 }
