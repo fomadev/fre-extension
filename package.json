@@ -3,7 +3,7 @@
   "displayName": "Foma Render Engine",
   "version": "1.0.0",
   "publisher": "FordiMalanda",
-  "icon": "icons/foma-logo.png",
+  "icon": "icons/foma-logo.svg",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -38,5 +38,9 @@
         "path": "./foma-icons.json"
       }
     ]
-  }
+  },
+  "repository": {
+   "type": "git",
+   "url": "https://github.com/fomadev/fre-extension"
+}
 }
